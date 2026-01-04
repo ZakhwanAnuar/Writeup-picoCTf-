@@ -1,13 +1,9 @@
-## Writeup-picoCTf
-#
-#1 Forensics
+# WRITEUP-3108CTF
 
-cb
-cvc
-cv
+## KATEGORI
 
-cv
-cvb
-cvb
-cvbcv
-bcv
+### TUGASAN UTAMA : WARKAH UNTUK PERWIRA
+
+#### Tugasan I : Seruan Perwira
+#### Tugasan II : Tali Barut
+#### Tugasan III : Pangkalan Gelap
