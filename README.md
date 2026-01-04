@@ -1,6 +1,6 @@
 # Writeup-picoCTf-
 
-vxxcvvx
+# vxxcvvx
 
 cb
 cvc
