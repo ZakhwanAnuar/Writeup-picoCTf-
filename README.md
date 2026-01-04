@@ -1,9 +1,12 @@
-# WRITEUP-3108CTF
+# WRITEUP-Pico CTF
 
-## KATEGORI
+## Forensics
 
-### TUGASAN UTAMA : WARKAH UNTUK PERWIRA
+### Bitlocker-1
+### Bitlocker-2
+### corrupted_file 
+### disco1
+### disco2
+### disco3
+### Bitlocker-1
 
-#### Tugasan I : Seruan Perwira
-#### Tugasan II : Tali Barut
-#### Tugasan III : Pangkalan Gelap
