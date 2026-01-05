@@ -80,6 +80,8 @@ So I fixed the magic bytes to the correct JPEG header and converted it back into
 
 Opened the image… and yep, flag was right there 😎
 
+![.](Forensics/Corrupted-file/final.png)
+
 #### 🚩 Flag: picoCTF{r3st0r1ng_th3_by73s_efd8c8c0}
 #
 
