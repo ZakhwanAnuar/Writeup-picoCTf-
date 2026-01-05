@@ -74,6 +74,8 @@ The Linux partition was extracted:
 Finally, the extracted image was searched for the flag:
 ![.](Forensics/Disko2/final.png)
 
+#### 🚩 Flag: picoCTF{4_P4Rt_1t_i5_90a3f3d1}
+
 ### Disco 3
 
 ### Flag In Flame
