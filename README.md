@@ -25,6 +25,28 @@
 
 ### Bitlocker 1
 
+First, the BitLocker hash was extracted from the disk image:
+
+![.](Forensics/Bitlocker1/extract.png)
+
+The password was brute-forced using John the Ripper with the rockyou wordlist:
+
+![.](Forensics/Bitlocker1/john.png)
+
+The recovered password was: **`jacqueline`**
+
+A directory was created and the BitLocker volume was unlocked using Dislocker:
+
+![.](Forensics/Bitlocker1/dislocker.png)
+
+The decrypted NTFS volume was mounted read-only:
+
+The extracted file was searched for the flag:
+
+![.](Forensics/Bitlocker1/final.png)
+
+#### 🚩 Flag: picoCTF{us3_b3tt3r_p4ssw0rd5_pl5!_3242adb1}
+
 ### Bitlocker 2
 
 ### Blast From The Past
@@ -84,7 +106,7 @@ I open Autopsy and search keyword 'picoCTF' for the flag:
 
 ![.](Forensics/Disko3/autopsy.png)
 
-the flag inside flag file
+the flag is inside the flag file
 
 #### 🚩 Flag: picoCTF{n3v3r_z1p_2_h1d3_26d4f233}
 
