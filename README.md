@@ -46,7 +46,7 @@ The extracted file was searched for the flag:
 ![.](Forensics/Bitlocker1/final.png)
 
 #### 🚩 Flag: picoCTF{us3_b3tt3r_p4ssw0rd5_pl5!_3242adb1}
-
+#
 
 ### Bitlocker 2
 hey actually give two files:
@@ -59,6 +59,9 @@ At first I was like:
 
 Instead, I just went full lazy mode and checked the memory dump:
 ![.](Forensics/Bitlocker2/string.png)
+#### 🚩 Flag: picoCTF{B1tl0ck3r_dr1v3_d3crypt3d_9029ae5b}
+#
+
 ### Blast From The Past
 
 ### Corrupted File
@@ -79,12 +82,14 @@ Each occurrence contained a **partial fragment of the flag**.
 By extracting all the fragments and combining them together, I was able to recover the full flag.
 
 #### 🚩 Flag: picoCTF{1_533_n4m35_80d24b30}
-
+#
 
 ### Disco 1
 This challenge is so easy. you just need to strings and grep the flag.
 
 ![string](Forensics/Disko1/Strings.png)
+#### 🚩 Flag: picoCTF{1t5_ju5t_4_5tr1n9_c63b02ef}
+#
 
 ### Disco 2
 First, the disk image was searched for flag strings:
@@ -106,7 +111,7 @@ Finally, the extracted image was searched for the flag:
 ![.](Forensics/Disko2/final.png)
 
 #### 🚩 Flag: picoCTF{4_P4Rt_1t_i5_90a3f3d1}
-
+#
 
 ### Disco 3
 I open Autopsy and search keyword 'picoCTF' for the flag:
@@ -116,7 +121,7 @@ I open Autopsy and search keyword 'picoCTF' for the flag:
 the flag is inside the flag file
 
 #### 🚩 Flag: picoCTF{n3v3r_z1p_2_h1d3_26d4f233}
-
+#
 
 ### Mob Psycho
 Honestly… I had no clue what was going on at first.
@@ -140,6 +145,7 @@ Then i convert at Cyberchef and retrieve the flag:
 
 #### 🚩 Flag: picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_a3eb5ac2}
 
+#
 ### Flag In Flame
 
 ### Hidden In Plain Sight
