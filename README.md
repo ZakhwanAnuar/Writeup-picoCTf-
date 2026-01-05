@@ -64,6 +64,7 @@ First, the disk image was searched for flag strings:
 This returned multiple flags, so the hint was followed stating the correct flag is in the Linux partition.
 
 The partition table was analyzed using:
+
 ![.](Forensics/Disko2/checking.png)
 
 This showed the Linux partition starting at sector 2048 with 51200 sectors.
