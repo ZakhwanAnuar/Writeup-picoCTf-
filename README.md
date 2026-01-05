@@ -25,7 +25,6 @@
 ### Event Viewing
 
 ### Bitlocker 1
-
 First, the BitLocker hash was extracted from the disk image:
 
 ![.](Forensics/Bitlocker1/extract.png)
@@ -48,8 +47,8 @@ The extracted file was searched for the flag:
 
 #### 🚩 Flag: picoCTF{us3_b3tt3r_p4ssw0rd5_pl5!_3242adb1}
 
-### Bitlocker 2
 
+### Bitlocker 2
 hey actually give two files:
 **`Bitlocker-2.dd`** and **`memdump.mem.gz`**.
 
@@ -65,7 +64,6 @@ Instead, I just went full lazy mode and checked the memory dump:
 ### Corrupted File
 
 ### Dear Diary
-
 First, I extracted the `.gz` file and opened it in **Autopsy** for analysis.
 
 ![Autopsy Analysis](Forensics/Dear-Diary/Autopsy.png)
@@ -82,8 +80,8 @@ By extracting all the fragments and combining them together, I was able to recov
 
 #### 🚩 Flag: picoCTF{1_533_n4m35_80d24b30}
 
-### Disco 1
 
+### Disco 1
 This challenge is so easy. you just need to strings and grep the flag.
 
 ![string](Forensics/Disko1/Strings.png)
@@ -109,8 +107,8 @@ Finally, the extracted image was searched for the flag:
 
 #### 🚩 Flag: picoCTF{4_P4Rt_1t_i5_90a3f3d1}
 
-### Disco 3
 
+### Disco 3
 I open Autopsy and search keyword 'picoCTF' for the flag:
 
 ![.](Forensics/Disko3/autopsy.png)
@@ -119,8 +117,8 @@ the flag is inside the flag file
 
 #### 🚩 Flag: picoCTF{n3v3r_z1p_2_h1d3_26d4f233}
 
-### Mob Psycho
 
+### Mob Psycho
 Honestly… I had no clue what was going on at first.
 
 So I did the most CTF thing possible:
