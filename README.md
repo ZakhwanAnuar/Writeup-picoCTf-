@@ -55,7 +55,7 @@ By extracting all the fragments and combining them together, I was able to recov
 
 This challenge is so easy you. you just need to strings at grep the flag.
 
-![string](Forensics/Disco1/Strings.png)
+![string](Forensics/Disko1/Strings.png)
 
 ### Disco 2
 
