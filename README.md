@@ -67,20 +67,20 @@ Instead, I just went full lazy mode and checked the memory dump:
 ### Corrupted File
 First i check what file is this
 
-![.](Forensics/Corrupted-file/file.png)
+![.](Forensics/Corrupted-File/file.png)
 Oh its a jpeg file
 
 Checked the corrupted file and saw the header was wrong (5c78 ffe0 instead of JPEG magic bytes ffd8 ffe0).
 
-![.](Forensics/Corrupted-file/xxd.png)
+![.](Forensics/Corrupted-File/xxd.png)
 
 So I fixed the magic bytes to the correct JPEG header and converted it back into a .jpg.
 
-![.](Forensics/Corrupted-file/hexedit.png)
+![.](Forensics/Corrupted-File/hexedit.png)
 
 Opened the image… and yep, flag was right there 😎
 
-![.](Forensics/Corrupted-file/final.png)
+![.](Forensics/Corrupted-File/final.png)
 
 #### 🚩 Flag: picoCTF{r3st0r1ng_th3_by73s_efd8c8c0}
 #
