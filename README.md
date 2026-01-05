@@ -70,6 +70,7 @@ The partition table was analyzed using:
 This showed the Linux partition starting at sector 2048 with 51200 sectors.
 
 The Linux partition was extracted:
+
 ![.](Forensics/Disko2/extract.png)
 
 Finally, the extracted image was searched for the flag:
