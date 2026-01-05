@@ -53,11 +53,26 @@ By extracting all the fragments and combining them together, I was able to recov
 
 ### Disco 1
 
-This challenge is so easy you. you just need to strings at grep the flag.
+This challenge is so easy you. you just need to strings and grep the flag.
 
 ![string](Forensics/Disko1/Strings.png)
 
 ### Disco 2
+First, the disk image was searched for flag strings:
+![string](Forensics/Disko2/strings.png)
+
+This returned multiple flags, so the hint was followed stating the correct flag is in the Linux partition.
+
+The partition table was analyzed using:
+![.](Forensics/Disko2/checking.png)
+
+This showed the Linux partition starting at sector 2048 with 51200 sectors.
+
+The Linux partition was extracted:
+![.](Forensics/Disko2/extract.png)
+
+Finally, the extracted image was searched for the flag:
+![.](Forensics/Disko2/final.png)
 
 ### Disco 3
 
