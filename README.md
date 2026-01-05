@@ -10,6 +10,7 @@
   - [Disco 1](#disco-1)
   - [Disco 2](#disco-2)
   - [Disco 3](#disco-3)
+  - [Mob Psycho](#mob-psycho)
   - [Flag In Flame](#flag-in-flame)
   - [Hidden In Plain Sight](#hidden-in-plain-sight)
   - [Hide Me](#hide-me)
@@ -49,6 +50,16 @@ The extracted file was searched for the flag:
 
 ### Bitlocker 2
 
+hey actually give two files:
+**`Bitlocker-2.dd`** and **`memdump.mem.gz`**.
+
+At first I was like:
+“Oh okay, same as BitLocker 1, extract hash, crack password, dislocker, mount…”
+
+…but nah 😭
+
+Instead, I just went full lazy mode and checked the memory dump:
+![.](Forensics/Bitlocker2/string.png)
 ### Blast From The Past
 
 ### Corrupted File
@@ -70,8 +81,6 @@ Each occurrence contained a **partial fragment of the flag**.
 By extracting all the fragments and combining them together, I was able to recover the full flag.
 
 #### 🚩 Flag: picoCTF{1_533_n4m35_80d24b30}
-
-
 
 ### Disco 1
 
@@ -109,6 +118,29 @@ I open Autopsy and search keyword 'picoCTF' for the flag:
 the flag is inside the flag file
 
 #### 🚩 Flag: picoCTF{n3v3r_z1p_2_h1d3_26d4f233}
+
+### Mob Psycho
+
+Honestly… I had no clue what was going on at first.
+
+So I did the most CTF thing possible:
+
+![.](Forensics/Mob-Psycho/string.png)
+
+And somehow… it worked 💀
+I found a flag.txt file inside the res/color/ directory.
+
+![.](Forensics/Mob-Psycho/flag.png)
+
+When i cat the flag, it got hex string
+
+![.](Forensics/Mob-Psycho/cat.png)
+
+Then i convert at Cyberchef and retrieve the flag:
+
+![.](Forensics/Mob-Psycho/cyberchef.png)
+
+#### 🚩 Flag: picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_a3eb5ac2}
 
 ### Flag In Flame
 
