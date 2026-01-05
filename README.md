@@ -80,6 +80,14 @@ Finally, the extracted image was searched for the flag:
 
 ### Disco 3
 
+I open Autopsy and search keyword 'picoCTF' for the flag:
+
+![.](Forensics/Disko3/autopsy.png)
+
+the flag inside flag file
+
+#### 🚩 Flag: picoCTF{n3v3r_z1p_2_h1d3_26d4f233}
+
 ### Flag In Flame
 
 ### Hidden In Plain Sight
