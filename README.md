@@ -32,7 +32,8 @@
 ### Corrupted File
 
 ### Dear Diary
-
+First i extract the .gz file and open it at Autopsy
+(Forensic/Dear Diary/Autopsy.png)
 ### Disco 1
 
 ### Disco 2
