@@ -53,7 +53,7 @@ By extracting all the fragments and combining them together, I was able to recov
 
 ### Disco 1
 
-This challenge is so easy you. you just need to strings and grep the flag.
+This challenge is so easy. you just need to strings and grep the flag.
 
 ![string](Forensics/Disko1/Strings.png)
 
