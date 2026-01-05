@@ -49,7 +49,7 @@ The extracted file was searched for the flag:
 #
 
 ### Bitlocker 2
-hey actually give two files:
+They actually give two files:
 **`Bitlocker-2.dd`** and **`memdump.mem.gz`**.
 
 At first I was like:
