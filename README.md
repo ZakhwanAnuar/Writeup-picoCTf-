@@ -33,9 +33,21 @@
 
 ### Dear Diary
 
-First I extracted the `.gz` file and opened it in Autopsy.
+First, I extracted the `.gz` file and opened it in **Autopsy** for analysis.
 
-![Autopsy Analysis](Forensics/Dear%20Diary/Autopsy.png)
+![Autopsy Analysis](Forensics/Dear-Diary/Autopsy.png)
+
+While browsing the extracted files, I noticed a suspicious file named **`innocuous-file.txt`**.  
+I inspected this file using **HxD** and searched for its occurrences across the disk image.
+
+![Hxd Analysis](Forensics/Dear-Diary/Final.png)
+
+Each occurrence contained a **partial fragment of the flag**.  
+By extracting all the fragments and combining them together, I was able to recover the full flag.
+
+#### 🚩 Flag: picoCTF{1_533_n4m35_80d24b30}
+
+
 
 ### Disco 1
 
