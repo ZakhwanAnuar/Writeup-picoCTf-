@@ -38,6 +38,8 @@ First, I extracted the `.gz` file and opened it in **Autopsy** for analysis.
 ![Autopsy Analysis](Forensics/Dear-Diary/Autopsy.png)
 
 While browsing the extracted files, I noticed a suspicious file named **`innocuous-file.txt`**.  
+
+![Hxd Analysis](Forensics/Dear-Diary/Search.png)
 I inspected this file using **HxD** and searched for its occurrences across the disk image.
 
 ![Hxd Analysis](Forensics/Dear-Diary/Final.png)
