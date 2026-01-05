@@ -144,13 +144,31 @@ Then i convert at Cyberchef and retrieve the flag:
 ![.](Forensics/Mob-Psycho/cyberchef.png)
 
 #### 🚩 Flag: picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_a3eb5ac2}
-
 #
+
 ### Flag In Flame
 
 ### Hidden In Plain Sight
 
 ### Hide Me
+First thing I did was throw the file into binwalk:
+
+![.](Forensics/Hide-Me/binwalk.png)
+
+Turns out… surprise surprise 🎉
+There’s a ZIP file hiding inside the image.
+
+So I extracted it manually using dd:
+![.](Forensics/Hide-Me/extract.png)
+
+Unzipped it and found another flag.png chilling inside the secret directory.
+
+![.](Forensics/Hide-Me/final.png)
+
+Opened it, and boom — flag acquired 🏁
+
+#### 🚩 Flag: picoCTF{Hiddinng_An_imag3_within_@n_ima9e_85e04ab8}
+#
 
 ### Lookey Here
 
