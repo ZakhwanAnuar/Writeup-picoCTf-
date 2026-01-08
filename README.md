@@ -23,15 +23,15 @@
   - [Secret Of The Polyglot](#secret-of-the-polyglot)
 ## Forensics
 ### FindAndOpen
-The challenge description states that the ZIP password can be found inside the PCAP file.
+The challenge description states that the ZIP password can be found inside the **`PCAP file`**.
 
 First and foremost, I opened the provided PCAP file using Wireshark.
 
 While analyzing the packets, I looked for anything suspicious such as:
 
-unusual payloads
-readable strings
-encoded data
+-unusual payloads
+-readable strings
+-encoded data
 
 Eventually, I found a suspicious packet that contained a string which looked like Base64-encoded data.
 ![.](Forensics/FindAndOpen/wireshark.png)
@@ -45,7 +45,7 @@ This means the data was double-Base64 encoded
 I copied the suspicious string from the packet payload and pasted it into my best friend — ChatGPT 😄 to help analyze it.
 ![.](Forensics/FindAndOpen/chatgpt.png)
 
-rs is the secret: picoCTF{R3DING_LOKd_}
+**`rs is the secret: picoCTF{R3DING_LOKd_}`**
 
 so i think that is the password.
 ![.](Forensics/FindAndOpen/flag.png)
