@@ -1,7 +1,7 @@
 ## 📑 Table of Contents
 
 - [Forensics](#forensics)
-  - [Event Viewing](#event-viewing)
+  - [FindAndOpen](#FindAndOpen)
   - [Bitlocker 1](#bitlocker-1)
   - [Bitlocker 2](#bitlocker-2)
   - [Blast From The Past](#blast-from-the-past)
@@ -22,7 +22,37 @@
   - [Scan Surprise](#scan-surprise)
   - [Secret Of The Polyglot](#secret-of-the-polyglot)
 ## Forensics
-### Event Viewing
+### FindAndOpen
+The challenge description states that the ZIP password can be found inside the PCAP file.
+
+First and foremost, I opened the provided PCAP file using Wireshark.
+
+While analyzing the packets, I looked for anything suspicious such as:
+
+unusual payloads
+readable strings
+encoded data
+
+Eventually, I found a suspicious packet that contained a string which looked like Base64-encoded data.
+![.](Forensics/FindAndOpen/wireshark.png)
+ChatGPT identified that:
+
+The string was Base64-encoded
+
+After decoding once, it resulted in another Base64 string
+
+This means the data was double-Base64 encoded
+I copied the suspicious string from the packet payload and pasted it into my best friend — ChatGPT 😄 to help analyze it.
+![.](Forensics/FindAndOpen/chatgpt.png)
+
+rs is the secret: picoCTF{R3DING_LOKd_}
+
+so i think that is the password.
+![.](Forensics/FindAndOpen/flag.png)
+
+and yess!!
+#### 🚩 Flag: picoCTF{R34DING_LOKd_fil56_succ3ss_cbf2ebf6}
+#
 
 ### Bitlocker 1
 First, the BitLocker hash was extracted from the disk image:
